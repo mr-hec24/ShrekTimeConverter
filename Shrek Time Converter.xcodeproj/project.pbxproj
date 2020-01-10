@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		997B8C2D22BC495F00F8CC64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B8C2C22BC495F00F8CC64 /* AppDelegate.swift */; };
+		997B8C3222BC496300F8CC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997B8C3022BC496300F8CC64 /* Main.storyboard */; };
+		997B8C3422BC49AF00F8CC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997B8C3322BC49AF00F8CC64 /* Assets.xcassets */; };
+		997B8C3722BC49AF00F8CC64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997B8C3522BC49AF00F8CC64 /* LaunchScreen.storyboard */; };
+		997B8C4622BD6C1500F8CC64 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B8C4522BD6C1500F8CC64 /* CalculatorViewController.swift */; };
+		997B8C4822BD6C4300F8CC64 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B8C4722BD6C4300F8CC64 /* CalendarViewController.swift */; };
+		997B8C4A22BD6C5E00F8CC64 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B8C4922BD6C5E00F8CC64 /* OptionsViewController.swift */; };
+		997B8C4D22CAEB7000F8CC64 /* ShrekLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B8C4C22CAEB7000F8CC64 /* ShrekLabel.swift */; };
+		997B8C4F22CAEF8600F8CC64 /* ShrekTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B8C4E22CAEF8600F8CC64 /* ShrekTextField.swift */; };
+		997B8C5122CAF08100F8CC64 /* ShrekButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B8C5022CAF08100F8CC64 /* ShrekButton.swift */; };
+		997B8C5322CAF0F800F8CC64 /* ShrekPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B8C5222CAF0F800F8CC64 /* ShrekPickerView.swift */; };
+		99CD8BB023BA6BBE0033C54E /* ShrekTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD8BAF23BA6BBE0033C54E /* ShrekTitleLabel.swift */; };
+		99CD8BB223BA77890033C54E /* ShrekTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD8BB123BA77890033C54E /* ShrekTabBarController.swift */; };
+		99D1884C22D15645003DA8E0 /* ShrekTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D1884B22D15645003DA8E0 /* ShrekTableView.swift */; };
+		99FCFF9122DFE32D009FF18F /* ShrekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCFF9022DFE32C009FF18F /* ShrekCell.swift */; };
+		99FCFF9422DFE3A0009FF18F /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCFF9322DFE3A0009FF18F /* Option.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		997B8C2922BC495F00F8CC64 /* Shrek Time Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shrek Time Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		997B8C2C22BC495F00F8CC64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		997B8C3122BC496300F8CC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		997B8C3322BC49AF00F8CC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		997B8C3622BC49AF00F8CC64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		997B8C3822BC49AF00F8CC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997B8C4522BD6C1500F8CC64 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		997B8C4722BD6C4300F8CC64 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		997B8C4922BD6C5E00F8CC64 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		997B8C4C22CAEB7000F8CC64 /* ShrekLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekLabel.swift; sourceTree = "<group>"; };
+		997B8C4E22CAEF8600F8CC64 /* ShrekTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekTextField.swift; sourceTree = "<group>"; };
+		997B8C5022CAF08100F8CC64 /* ShrekButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekButton.swift; sourceTree = "<group>"; };
+		997B8C5222CAF0F800F8CC64 /* ShrekPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekPickerView.swift; sourceTree = "<group>"; };
+		99CD8BAF23BA6BBE0033C54E /* ShrekTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekTitleLabel.swift; sourceTree = "<group>"; };
+		99CD8BB123BA77890033C54E /* ShrekTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekTabBarController.swift; sourceTree = "<group>"; };
+		99D1884B22D15645003DA8E0 /* ShrekTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekTableView.swift; sourceTree = "<group>"; };
+		99FCFF9022DFE32C009FF18F /* ShrekCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekCell.swift; sourceTree = "<group>"; };
+		99FCFF9322DFE3A0009FF18F /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		997B8C2622BC495F00F8CC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		997B8C2022BC495E00F8CC64 = {
+			isa = PBXGroup;
+			children = (
+				997B8C2B22BC495F00F8CC64 /* Shrek Time Converter */,
+				997B8C2A22BC495F00F8CC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		997B8C2A22BC495F00F8CC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				997B8C2922BC495F00F8CC64 /* Shrek Time Converter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		997B8C2B22BC495F00F8CC64 /* Shrek Time Converter */ = {
+			isa = PBXGroup;
+			children = (
+				99FCFF9222DFE38A009FF18F /* Objects */,
+				997B8C4B22CAEB3200F8CC64 /* Customization */,
+				997B8C4422BD6B9400F8CC64 /* View Controllers */,
+				997B8C2C22BC495F00F8CC64 /* AppDelegate.swift */,
+				997B8C3022BC496300F8CC64 /* Main.storyboard */,
+				997B8C3322BC49AF00F8CC64 /* Assets.xcassets */,
+				997B8C3522BC49AF00F8CC64 /* LaunchScreen.storyboard */,
+				997B8C3822BC49AF00F8CC64 /* Info.plist */,
+			);
+			path = "Shrek Time Converter";
+			sourceTree = "<group>";
+		};
+		997B8C4422BD6B9400F8CC64 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				997B8C4522BD6C1500F8CC64 /* CalculatorViewController.swift */,
+				997B8C4722BD6C4300F8CC64 /* CalendarViewController.swift */,
+				997B8C4922BD6C5E00F8CC64 /* OptionsViewController.swift */,
+				99CD8BB123BA77890033C54E /* ShrekTabBarController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		997B8C4B22CAEB3200F8CC64 /* Customization */ = {
+			isa = PBXGroup;
+			children = (
+				997B8C4C22CAEB7000F8CC64 /* ShrekLabel.swift */,
+				99CD8BAF23BA6BBE0033C54E /* ShrekTitleLabel.swift */,
+				997B8C4E22CAEF8600F8CC64 /* ShrekTextField.swift */,
+				997B8C5022CAF08100F8CC64 /* ShrekButton.swift */,
+				997B8C5222CAF0F800F8CC64 /* ShrekPickerView.swift */,
+				99D1884B22D15645003DA8E0 /* ShrekTableView.swift */,
+				99FCFF9022DFE32C009FF18F /* ShrekCell.swift */,
+			);
+			path = Customization;
+			sourceTree = "<group>";
+		};
+		99FCFF9222DFE38A009FF18F /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				99FCFF9322DFE3A0009FF18F /* Option.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		997B8C2822BC495F00F8CC64 /* Shrek Time Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997B8C3B22BC49B000F8CC64 /* Build configuration list for PBXNativeTarget "Shrek Time Converter" */;
+			buildPhases = (
+				997B8C2522BC495F00F8CC64 /* Sources */,
+				997B8C2622BC495F00F8CC64 /* Frameworks */,
+				997B8C2722BC495F00F8CC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shrek Time Converter";
+			productName = "Shrek Time Converter";
+			productReference = 997B8C2922BC495F00F8CC64 /* Shrek Time Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		997B8C2122BC495E00F8CC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Cholesterol Club";
+				TargetAttributes = {
+					997B8C2822BC495F00F8CC64 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 997B8C2422BC495E00F8CC64 /* Build configuration list for PBXProject "Shrek Time Converter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 997B8C2022BC495E00F8CC64;
+			productRefGroup = 997B8C2A22BC495F00F8CC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				997B8C2822BC495F00F8CC64 /* Shrek Time Converter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		997B8C2722BC495F00F8CC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997B8C3722BC49AF00F8CC64 /* LaunchScreen.storyboard in Resources */,
+				997B8C3422BC49AF00F8CC64 /* Assets.xcassets in Resources */,
+				997B8C3222BC496300F8CC64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		997B8C2522BC495F00F8CC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997B8C4822BD6C4300F8CC64 /* CalendarViewController.swift in Sources */,
+				99D1884C22D15645003DA8E0 /* ShrekTableView.swift in Sources */,
+				997B8C2D22BC495F00F8CC64 /* AppDelegate.swift in Sources */,
+				99CD8BB023BA6BBE0033C54E /* ShrekTitleLabel.swift in Sources */,
+				997B8C4622BD6C1500F8CC64 /* CalculatorViewController.swift in Sources */,
+				99CD8BB223BA77890033C54E /* ShrekTabBarController.swift in Sources */,
+				99FCFF9422DFE3A0009FF18F /* Option.swift in Sources */,
+				99FCFF9122DFE32D009FF18F /* ShrekCell.swift in Sources */,
+				997B8C5322CAF0F800F8CC64 /* ShrekPickerView.swift in Sources */,
+				997B8C4F22CAEF8600F8CC64 /* ShrekTextField.swift in Sources */,
+				997B8C5122CAF08100F8CC64 /* ShrekButton.swift in Sources */,
+				997B8C4D22CAEB7000F8CC64 /* ShrekLabel.swift in Sources */,
+				997B8C4A22BD6C5E00F8CC64 /* OptionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		997B8C3022BC496300F8CC64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				997B8C3122BC496300F8CC64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		997B8C3522BC49AF00F8CC64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				997B8C3622BC49AF00F8CC64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		997B8C3922BC49AF00F8CC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		997B8C3A22BC49B000F8CC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		997B8C3C22BC49B000F8CC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STDG4G54VP;
+				INFOPLIST_FILE = "Shrek Time Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cholesterolClub.Shrek-Time-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		997B8C3D22BC49B000F8CC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STDG4G54VP;
+				INFOPLIST_FILE = "Shrek Time Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cholesterolClub.Shrek-Time-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		997B8C2422BC495E00F8CC64 /* Build configuration list for PBXProject "Shrek Time Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997B8C3922BC49AF00F8CC64 /* Debug */,
+				997B8C3A22BC49B000F8CC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997B8C3B22BC49B000F8CC64 /* Build configuration list for PBXNativeTarget "Shrek Time Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997B8C3C22BC49B000F8CC64 /* Debug */,
+				997B8C3D22BC49B000F8CC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 997B8C2122BC495E00F8CC64 /* Project object */;
+}
