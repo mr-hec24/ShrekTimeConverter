@@ -21,6 +21,7 @@
 		99CD8BB023BA6BBE0033C54E /* ShrekTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD8BAF23BA6BBE0033C54E /* ShrekTitleLabel.swift */; };
 		99CD8BB223BA77890033C54E /* ShrekTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD8BB123BA77890033C54E /* ShrekTabBarController.swift */; };
 		99D1884C22D15645003DA8E0 /* ShrekTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D1884B22D15645003DA8E0 /* ShrekTableView.swift */; };
+		99D7A7FC23C9852300171926 /* View Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 99D7A7FB23C9852300171926 /* View Controllers */; };
 		99FCFF9122DFE32D009FF18F /* ShrekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCFF9022DFE32C009FF18F /* ShrekCell.swift */; };
 		99FCFF9422DFE3A0009FF18F /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCFF9322DFE3A0009FF18F /* Option.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		99CD8BAF23BA6BBE0033C54E /* ShrekTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekTitleLabel.swift; sourceTree = "<group>"; };
 		99CD8BB123BA77890033C54E /* ShrekTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekTabBarController.swift; sourceTree = "<group>"; };
 		99D1884B22D15645003DA8E0 /* ShrekTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekTableView.swift; sourceTree = "<group>"; };
+		99D7A7FB23C9852300171926 /* View Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "View Controllers"; sourceTree = "<group>"; };
 		99FCFF9022DFE32C009FF18F /* ShrekCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShrekCell.swift; sourceTree = "<group>"; };
 		99FCFF9322DFE3A0009FF18F /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 				997B8C4722BD6C4300F8CC64 /* CalendarViewController.swift */,
 				997B8C4922BD6C5E00F8CC64 /* OptionsViewController.swift */,
 				99CD8BB123BA77890033C54E /* ShrekTabBarController.swift */,
+				99D7A7FB23C9852300171926 /* View Controllers */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				997B8C3722BC49AF00F8CC64 /* LaunchScreen.storyboard in Resources */,
 				997B8C3422BC49AF00F8CC64 /* Assets.xcassets in Resources */,
+				99D7A7FC23C9852300171926 /* View Controllers in Resources */,
 				997B8C3222BC496300F8CC64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
